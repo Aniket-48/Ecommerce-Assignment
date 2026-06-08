@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "_id": "inntiycwccooidhldceem",
+      "createdAt": "2026-06-08T15:41:55.625Z",
+      "updatedAt": "2026-06-08T15:41:55.626Z",
+      "name": "Test User",
+      "email": "testuser@example.com",
+      "password": "$2a$10$5SG1JVwXPvopx/BuqR4lre4kftrKLV.lkxI57pUq2gUcaOkRKdvca"
+    },
+    {
+      "_id": "aj5puebd5n9dvb4co6xfno",
+      "createdAt": "2026-06-08T16:01:16.545Z",
+      "updatedAt": "2026-06-08T16:01:16.545Z",
+      "name": "aniket",
+      "email": "visheshsingh074@gmail.com",
+      "password": "$2a$10$RLBgID6p/tIGo9HClXvYjOFJ1KZo0dWXCGzzXHT3Pw76p6aDxFAlS"
+    }
+  ],
+  "products": [
+    {
+      "_id": "p1_sony_headphones",
+      "createdAt": "2026-06-08T15:54:16.000Z",
+      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "name": "Sony WH-1000XM4 Headphones",
+      "description": "Industry-leading noise-canceling wireless over-ear headphones with touch sensor controls and long battery life.",
+      "price": 299.99,
+      "category": "Electronics",
+      "image": "https://picsum.photos/id/211/600/400",
+      "images": [
+        "https://picsum.photos/id/1/600/400"
+      ],
+      "countInStock": 15,
+      "rating": 4.8,
+      "reviewsCount": 120,
+      "featured": true,
+      "trending": false,
+      "discount": 0
+    },
+    {
+      "_id": "p2_nike_air_max",
+      "createdAt": "2026-06-08T15:54:16.000Z",
+      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "name": "Nike Air Max 270",
+      "description": "Men's everyday lifestyle shoes featuring Nike's tallest Air unit yet for a super-soft ride.",
+      "price": 150,
+      "category": "Shoes",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+      "images": [],
+      "countInStock": 20,
+      "rating": 4.5,
+      "reviewsCount": 85,
+      "featured": false,
+      "trending": true,
+      "discount": 0
+    },
+    {
+      "_id": "p3_apple_macbook",
+      "createdAt": "2026-06-08T15:54:16.000Z",
+      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "name": "Apple MacBook Air M2",
+      "description": "Strikingly thin design, 13.6-inch Liquid Retina display, 8GB RAM, 256GB SSD storage.",
+      "price": 1099,
+      "category": "Electronics",
+      "image": "https://picsum.photos/id/0/600/400",
+      "images": [
+        "https://picsum.photos/id/180/600/400"
+      ],
+      "countInStock": 8,
+      "rating": 4.9,
+      "reviewsCount": 340,
+      "featured": true,
+      "trending": false,
+      "discount": 0
+    },
+    {
+      "_id": "p4_hydro_flask",
+      "createdAt": "2026-06-08T15:54:16.000Z",
+      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "name": "Hydro Flask 32 oz Wide Mouth",
+      "description": "Stainless steel insulated water bottle with leakproof cap, keeps drinks cold for 24 hours.",
+      "price": 44.95,
+      "category": "Fitness & Outdoors",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600",
+      "images": [],
+      "countInStock": 45,
+      "rating": 4.7,
+      "reviewsCount": 512,
+      "featured": false,
+      "trending": true,
+      "discount": 0
+    },
+    {
+      "_id": "p5_leather_wallet",
+      "createdAt": "2026-06-08T15:54:16.000Z",
+      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "name": "Minimalist Leather Wallet",
+      "description": "Slim RFID-blocking front pocket wallet crafted from premium full-grain leather.",
+      "price": 35,
+      "category": "Accessories",
+      "image": "https://picsum.photos/id/435/600/400",
+      "images": [],
+      "countInStock": 0,
+      "rating": 4.3,
+      "reviewsCount": 64,
+      "featured": false,
+      "trending": false,
+      "discount": 0
+    },
+    {
+      "_id": "p6_mechanical_keyboard",
+      "createdAt": "2026-06-08T15:54:16.000Z",
+      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "name": "Ergonomic Mechanical Keyboard",
+      "description": "Wireless RGB mechanical keyboard with hot-swappable switches and aluminum frame.",
+      "price": 129.99,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600",
+      "images": [],
+      "countInStock": 12,
+      "rating": 4.6,
+      "reviewsCount": 195,
+      "featured": false,
+      "trending": true,
+      "discount": 0
+    }
+  ],
+  "carts": [
+    {
+      "_id": "bixe7gvrh1ro9fb5uwq8o",
+      "createdAt": "2026-06-08T15:41:55.921Z",
+      "updatedAt": "2026-06-08T15:55:02.477Z",
+      "userId": "inntiycwccooidhldceem",
+      "items": []
+    },
+    {
+      "_id": "cy7yza2f0kulkxr7b02r5s",
+      "createdAt": "2026-06-08T16:01:16.614Z",
+      "updatedAt": "2026-06-08T16:02:01.630Z",
+      "userId": "aj5puebd5n9dvb4co6xfno",
+      "items": []
+    }
+  ],
+  "orders": [
+    {
+      "_id": "bj8qbsdj1o5euq37ze5dv",
+      "createdAt": "2026-06-08T15:41:55.938Z",
+      "updatedAt": "2026-06-08T15:41:55.938Z",
+      "userId": "inntiycwccooidhldceem",
+      "items": [
+        {
+          "productId": "p1_sony_headphones",
+          "name": "Sony WH-1000XM4 Headphones",
+          "price": 299.99,
+          "quantity": 2,
+          "image": "https://picsum.photos/id/211/600/400"
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Test User",
+        "street": "123 Test St",
+        "city": "Test City",
+        "postalCode": "12345"
+      },
+      "paymentMethod": "Credit Card",
+      "totalAmount": 599.98,
+      "status": "Processing"
+    },
+    {
+      "_id": "1frs44ygsqwbz910iatjp",
+      "createdAt": "2026-06-08T15:55:02.474Z",
+      "updatedAt": "2026-06-08T15:55:02.474Z",
+      "userId": "inntiycwccooidhldceem",
+      "items": [
+        {
+          "productId": "p1_sony_headphones",
+          "name": "Mock Product",
+          "price": 99.99,
+          "quantity": 2,
+          "image": "mock.jpg"
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Test User",
+        "street": "123 Test St",
+        "city": "Test City",
+        "postalCode": "12345"
+      },
+      "paymentMethod": "Credit Card",
+      "totalAmount": 199.98,
+      "status": "Processing"
+    },
+    {
+      "_id": "7ku9086knv5blrlnrc2wy",
+      "createdAt": "2026-06-08T16:02:01.627Z",
+      "updatedAt": "2026-06-08T16:02:01.627Z",
+      "userId": "aj5puebd5n9dvb4co6xfno",
+      "items": [
+        {
+          "productId": "p2_nike_air_max",
+          "name": "Nike Air Max 270",
+          "price": 150,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "vishesh",
+        "street": "dwarkbggrtrhbtn ",
+        "city": "hvyuvhuhuhj f",
+        "postalCode": "598496156"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "totalAmount": 150,
+      "status": "Processing"
+    }
+  ]
+}
