@@ -20,8 +20,8 @@
   "products": [
     {
       "_id": "p1_manual",
-      "createdAt": "2026-06-08T16:15:10.108Z",
-      "updatedAt": "2026-06-08T16:15:10.116Z",
+      "createdAt": "2026-06-08T16:40:49.818Z",
+      "updatedAt": "2026-06-08T16:40:49.834Z",
       "name": "Sony WH-1000XM4 Headphones",
       "description": "Industry-leading noise-canceling wireless over-ear headphones with touch sensor controls and long battery life.",
       "price": 299.99,
@@ -39,8 +39,8 @@
     },
     {
       "_id": "p2_manual",
-      "createdAt": "2026-06-08T16:15:10.116Z",
-      "updatedAt": "2026-06-08T16:15:10.116Z",
+      "createdAt": "2026-06-08T16:40:49.834Z",
+      "updatedAt": "2026-06-08T16:40:49.834Z",
       "name": "Nike Air Max 270",
       "description": "Men's everyday lifestyle shoes featuring Nike's tallest Air unit yet for a super-soft ride.",
       "price": 150,
@@ -56,8 +56,8 @@
     },
     {
       "_id": "p3_manual",
-      "createdAt": "2026-06-08T16:15:10.116Z",
-      "updatedAt": "2026-06-08T16:15:10.116Z",
+      "createdAt": "2026-06-08T16:40:49.834Z",
+      "updatedAt": "2026-06-08T16:40:49.834Z",
       "name": "Apple MacBook Air M2",
       "description": "Strikingly thin design, 13.6-inch Liquid Retina display, 8GB RAM, 256GB SSD storage.",
       "price": 1099,
@@ -75,8 +75,8 @@
     },
     {
       "_id": "p4_manual",
-      "createdAt": "2026-06-08T16:15:10.116Z",
-      "updatedAt": "2026-06-08T16:15:10.116Z",
+      "createdAt": "2026-06-08T16:40:49.834Z",
+      "updatedAt": "2026-06-08T16:40:49.834Z",
       "name": "Hydro Flask 32 oz Wide Mouth",
       "description": "Stainless steel insulated water bottle with leakproof cap, keeps drinks cold for 24 hours.",
       "price": 44.95,
@@ -92,8 +92,8 @@
     },
     {
       "_id": "p5_manual",
-      "createdAt": "2026-06-08T16:15:10.116Z",
-      "updatedAt": "2026-06-08T16:15:10.116Z",
+      "createdAt": "2026-06-08T16:40:49.834Z",
+      "updatedAt": "2026-06-08T16:40:49.834Z",
       "name": "Minimalist Leather Wallet",
       "description": "Slim RFID-blocking front pocket wallet crafted from premium full-grain leather.",
       "price": 35,
@@ -109,8 +109,8 @@
     },
     {
       "_id": "p6_manual",
-      "createdAt": "2026-06-08T16:15:10.116Z",
-      "updatedAt": "2026-06-08T16:15:10.116Z",
+      "createdAt": "2026-06-08T16:40:49.834Z",
+      "updatedAt": "2026-06-08T16:40:49.834Z",
       "name": "Ergonomic Mechanical Keyboard",
       "description": "Wireless RGB mechanical keyboard with hot-swappable switches and aluminum frame.",
       "price": 129.99,

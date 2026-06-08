@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
+const dns = require('dns');
+
+// Force using Google DNS to bypass local ISP DNS SRV block
+dns.setServers(['8.8.8.8', '8.8.4.4']);
 
 let dbConnected = false;
 
