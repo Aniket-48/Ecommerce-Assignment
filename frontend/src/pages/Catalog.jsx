@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { Search, ShoppingCart, Star, SlidersHorizontal, Tag } from 'lucide-react';
+import { API_URL } from '../config';
 
 const Catalog = () => {
   const [products, setProducts] = useState([]);
@@ -26,7 +27,7 @@ const Catalog = () => {
       if (maxPrice) queryParams.append('maxPrice', maxPrice);
       if (sort) queryParams.append('sort', sort);
 
-      const res = await fetch(`http://localhost:5000/api/products?${queryParams.toString()}`);
+      const res = await fetch(`${API_URL}/products?${queryParams.toString()}`);
       const data = await res.json();
       if (res.ok) {
         setProducts(data);

@@ -19,9 +19,9 @@
   ],
   "products": [
     {
-      "_id": "p1_sony_headphones",
-      "createdAt": "2026-06-08T15:54:16.000Z",
-      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "_id": "p1_manual",
+      "createdAt": "2026-06-08T16:15:10.108Z",
+      "updatedAt": "2026-06-08T16:15:10.116Z",
       "name": "Sony WH-1000XM4 Headphones",
       "description": "Industry-leading noise-canceling wireless over-ear headphones with touch sensor controls and long battery life.",
       "price": 299.99,
@@ -38,9 +38,9 @@
       "discount": 0
     },
     {
-      "_id": "p2_nike_air_max",
-      "createdAt": "2026-06-08T15:54:16.000Z",
-      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "_id": "p2_manual",
+      "createdAt": "2026-06-08T16:15:10.116Z",
+      "updatedAt": "2026-06-08T16:15:10.116Z",
       "name": "Nike Air Max 270",
       "description": "Men's everyday lifestyle shoes featuring Nike's tallest Air unit yet for a super-soft ride.",
       "price": 150,
@@ -55,9 +55,9 @@
       "discount": 0
     },
     {
-      "_id": "p3_apple_macbook",
-      "createdAt": "2026-06-08T15:54:16.000Z",
-      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "_id": "p3_manual",
+      "createdAt": "2026-06-08T16:15:10.116Z",
+      "updatedAt": "2026-06-08T16:15:10.116Z",
       "name": "Apple MacBook Air M2",
       "description": "Strikingly thin design, 13.6-inch Liquid Retina display, 8GB RAM, 256GB SSD storage.",
       "price": 1099,
@@ -74,9 +74,9 @@
       "discount": 0
     },
     {
-      "_id": "p4_hydro_flask",
-      "createdAt": "2026-06-08T15:54:16.000Z",
-      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "_id": "p4_manual",
+      "createdAt": "2026-06-08T16:15:10.116Z",
+      "updatedAt": "2026-06-08T16:15:10.116Z",
       "name": "Hydro Flask 32 oz Wide Mouth",
       "description": "Stainless steel insulated water bottle with leakproof cap, keeps drinks cold for 24 hours.",
       "price": 44.95,
@@ -86,14 +86,14 @@
       "countInStock": 45,
       "rating": 4.7,
       "reviewsCount": 512,
-      "featured": false,
       "trending": true,
+      "featured": false,
       "discount": 0
     },
     {
-      "_id": "p5_leather_wallet",
-      "createdAt": "2026-06-08T15:54:16.000Z",
-      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "_id": "p5_manual",
+      "createdAt": "2026-06-08T16:15:10.116Z",
+      "updatedAt": "2026-06-08T16:15:10.116Z",
       "name": "Minimalist Leather Wallet",
       "description": "Slim RFID-blocking front pocket wallet crafted from premium full-grain leather.",
       "price": 35,
@@ -108,9 +108,9 @@
       "discount": 0
     },
     {
-      "_id": "p6_mechanical_keyboard",
-      "createdAt": "2026-06-08T15:54:16.000Z",
-      "updatedAt": "2026-06-08T15:54:16.000Z",
+      "_id": "p6_manual",
+      "createdAt": "2026-06-08T16:15:10.116Z",
+      "updatedAt": "2026-06-08T16:15:10.116Z",
       "name": "Ergonomic Mechanical Keyboard",
       "description": "Wireless RGB mechanical keyboard with hot-swappable switches and aluminum frame.",
       "price": 129.99,
@@ -120,8 +120,8 @@
       "countInStock": 12,
       "rating": 4.6,
       "reviewsCount": 195,
-      "featured": false,
       "trending": true,
+      "featured": false,
       "discount": 0
     }
   ],

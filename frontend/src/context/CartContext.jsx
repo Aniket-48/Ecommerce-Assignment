@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useAuth } from './AuthContext';
+import { API_URL } from '../config';
 
 const CartContext = createContext();
 
@@ -8,7 +9,7 @@ export const CartProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const { token, user } = useAuth();
 
-  const baseUrl = 'http://localhost:5000/api/cart';
+  const baseUrl = `${API_URL}/cart`;
 
   const fetchCart = async () => {
     if (!token) {

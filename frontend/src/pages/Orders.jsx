@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { ClipboardList, Calendar, MapPin, CreditCard } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { API_URL } from '../config';
 
 const Orders = () => {
   const [orders, setOrders] = useState([]);
@@ -11,7 +12,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/orders', {
+        const res = await fetch(`${API_URL}/orders`, {
           headers: { 'Authorization': `Bearer ${token}` }
         });
         const data = await res.json();

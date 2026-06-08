@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { ClipboardCheck } from 'lucide-react';
+import { API_URL } from '../config';
 
 const Checkout = () => {
   const { cart, clearCart } = useCart();
@@ -40,7 +41,7 @@ const Checkout = () => {
     }));
 
     try {
-      const res = await fetch('http://localhost:5000/api/orders', {
+      const res = await fetch(`${API_URL}/orders`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
